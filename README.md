@@ -23,6 +23,27 @@ Download [`SpineLabeler.exe`](https://github.com/BCLibraries/SpineOMatic/release
 
 The User's Manual can also be downloaded and viewed from SpineOMatic's "About" box. It contains a Quick Start guide that will help you get SpineOMatic installed quickly and easily.
 
+### The following are installation steps provided by an Ex Libris LSP Project Consultant
+
+1. API Key: Login to the ExLibris Developer network: https://developers.exlibrisgroup.com 
+1. Generate your API Key: Login to the ExLibris Developer network: https://developers.exlibrisgroup.com 
+1. Click on Applications> Add Application
+1. Enter a name (e.g. SpineOmatic) and select Multi-purpose.
+1. Choose Bibs
+1. Accept the Terms and Conditions
+1. Click Save.
+1. Click the gear icon next to the API Key 
+1. Click Edit
+1. Choose the API Management tab
+1. From the Plan Change drop-down, select Prod Read/Write or Prod Read-Only
+1. Open Spine-O-Matic
+1. Select Use RESTful API
+1. Make the following selections/entries:
+  * ALMA URL = https://api-na.hosted.exlibrisgroup.com 
+  * Method – leave as is.
+  * API key – Paste the key 
+
+ExLibris Developer Network username and password were provided to you in the email accompanying your delivered test load.
 
 ## Disclaimer
 
